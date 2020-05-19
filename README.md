@@ -57,14 +57,41 @@ Using different prefixes, these classes can be used for both Bootstrap text co
 ***Example***
 
 * Background Color:
-    <h1 style="background-color:DodgerBlue;">Hello World</h1> (or)
-    <h1 style="background-color:rgb(255, 99, 71);">Hello world</h1> (or)	
-    <h1 style="background-color:#ff6347;">Hello world</h1>
+
+	     <p style="background-color:DodgerBlue;">Hello World</p>   
+	     <p style="background-color:rgb(255, 99, 71);">Hello world</p> 	
+	     <p style="background-color:#ff6347;">Hello world</p>      
 
 * Text Color:
-    <h1 style="color:Tomato;">Hello World</h1>
+
+     	<p style="color:Tomato;">Hello World</p>
 	
 * Border Color:
-   <h1 style="border:2px solid Tomato;">Hello World</h1>
 
+     	<p style="border:2px solid Tomato;">Hello World</p>
+   
+### Text color classes:
 
+* -primary changes the color to blue #007bff.
+* -info changes the color to teal #17a2b8.
+* -success changes the color to green #28a745.
+* -warning changes the color to yellow #ffc107.
+* -danger changes the color to red #dc3545.
+* -dark changes the color to dark gray #343a40.
+* -secondary changes the color to gray #6c757d.
+* -light changes the color to light gray #f8f9fa.
+* -white changes the color to white #ffffff.
+
+***Example:***
+
+	<p>Use the contextual classes to provide "meaning through colors":</p>
+  	<p class="text-muted">This text is muted.</p>
+  	<p class="text-primary">This text is important.</p>
+  	<p class="text-success">This text indicates success.</p>
+  	<p class="text-info">This text represents some information.</p>
+  	<p class="text-warning">This text represents a warning.</p>
+  	<p class="text-danger">This text represents danger.</p>
+  	<p class="text-secondary">Secondary text.</p>
+  	<p class="text-dark">This text is dark grey.</p>
+  	<p class="text-body">Default body color (often black).</p>
+  	<p class="text-light">This text is light grey (on white background).</p>
