@@ -22,7 +22,9 @@ Bootstrap is a free front-end framework for faster and easier web development
 > Class is nothing but collection of variables and methods is knows as a class. In Bootstrap we can represent every thing in class using class name and it have predefind classes
 
 **Example:**
+
 1.Containers : Bootstrap requires a containing element to wrap site contents
+
 	<div class=“container”>…..</div>
 	
 2.Grid System: Grid systems are used for creating page layouts through a series of rows and columns that house your content
