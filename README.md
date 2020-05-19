@@ -35,3 +35,13 @@ Bootstrap is a free front-end framework for faster and easier web development
 		<div class='col'>.....</div>
 		
 	</div>
+3.Alignment classes:  We can align the text using this classes in <p>…</p>
+
+     <p class=“text-left>Text data</p
+     <p class=“text-right>Text of right</p>
+     <p class=“text-center> Text of center</p>
+4.Transformation Classes: We can text captiliztion
+
+     <p class=‘text-lowercase’>lowercase data</p>
+     <p class= ‘text-uppercase’>uppercase data</p>
+     <p class=‘text-capitalize’>capitalize data</p>
