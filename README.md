@@ -136,11 +136,59 @@ Two Types of Container:
 
 Types of Grid:
 
-	.col     : extra small devices - screen width less than 576px
+	  .col     : extra small devices - screen width less than 576px
         .col-sm- : small devices - screen width equal to or greater than 576px
         .col-md- : medium devices - screen width equal to or greater than 768px
         .col-lg- : large devices - screen width equal to or greater than 992px
         .col-xl- : xlarge devices - screen width equal to or greater than 1200px
+	
+Basic Grid System: it divides the screen automatically when not provide any size of column
+
+	<div class="row“>
+	 	<div class="col" style="background-color:lavender;">col1/div>
+ 	 	<div class="col" style="background-color:orange;">col2/div>
+		<div class="col" style="background-color:lavender;">col3/div>
+	</div>
+	
+Responsive columns: it divides the screen based on columns size
+
+      // it divides the screen with one row and four columns
+	<div class="row">
+		<div class="col-sm-3">.col-sm-3</div>
+		<div class="col-sm-3">.col-sm-3</div>
+		<div class="col-sm-3">.col-sm-3</div>
+		<div class="col-sm-3">.col-sm-3</div>
+	</div>
+	
+	// it divides the screen with one row and columns one is 4px size and another column with 8px size
+	<div class="row">
+		<div class="col-sm-4">.col-sm-4</div>
+		<div class="col-sm-8">.col-sm-8</div>
+	</div>
+	
+Grid small: Small devices are defined as having a screen width from 576 pixels to 767 pixels.
+
+	
+	<div class="col-sm-3">....</div>
+	<div class="col-sm-9">....</div>
+	
+Grid medium: Medium devices are defined as having a screen width from 768 pixels to 991 pixels
+
+	<div class="col-md-3">..</div>
+	<div class="col-md-9">..</div>
+	
+Grid Large: Large devices are defined as having a screen width from 992 pixels to 1199 pixels.
+
+	<div class="col-lg-3">..</div>
+	<div class="col-lg-9">..</div>
+
+
+
+
+
+
+	
+
 
 
 
