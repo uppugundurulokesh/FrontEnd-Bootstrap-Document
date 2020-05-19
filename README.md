@@ -35,7 +35,7 @@ Bootstrap is a free front-end framework for faster and easier web development
 		<div class='col'>.....</div>
 		
 	</div>
-3.Alignment classes:  We can align the text using this classes in <p>…</p>
+3.Alignment classes:  We can align the text using this classes in  paragraph tags,header tags, etc
 
      <p class=“text-left>Text data</p
      <p class=“text-right>Text of right</p>
@@ -45,3 +45,29 @@ Bootstrap is a free front-end framework for faster and easier web development
      <p class=‘text-lowercase’>lowercase data</p>
      <p class= ‘text-uppercase’>uppercase data</p>
      <p class=‘text-capitalize’>capitalize data</p>
+     
+ That are the some basic classes, we have so many classes please refer <a href="www.google.com">getbootstrap.com</a>
+ 
+ ### Colors:
+ 
+ > Bootstrap 4 offers classes you can use to add color depending on the context the element is being used in.
+This component of Bootstrap 4 can make reading your code easier by providing contextual clues through the class names.
+Using different prefixes, these classes can be used for both Bootstrap text color and background color, as well as coloring elements.
+
+***Example***
+
+* Background Color:
+
+	<h1 style="background-color:DodgerBlue;">Hello World</h1> (or)
+	<h1 style="background-color:rgb(255, 99, 71);">...</h1> (or)	
+	<h1 style="background-color:#ff6347;">...</h1>
+	
+* Text Color:
+
+	<h1 style="color:Tomato;">Hello World</h1>
+
+* Border Color:
+
+	<h1 style="border:2px solid Tomato;">Hello World</h1>
+
+
