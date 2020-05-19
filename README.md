@@ -95,3 +95,55 @@ Using different prefixes, these classes can be used for both Bootstrap text co
   	<p class="text-dark">This text is dark grey.</p>
   	<p class="text-body">Default body color (often black).</p>
   	<p class="text-light">This text is light grey (on white background).</p>
+	
+### Jumbotron:
+> A jumbotron indicates a big grey box for calling extra attention to some special content or information.
+
+Two Types of Jumbotron:
+
+1) Jumbotron: Flexed with width
+
+		<div class="jumbotron">
+			<h1>Bootstrap Jumbotron</h1>
+		</div>
+		
+2) Jumbotron-fluid: Full width screen
+
+		<div class="jumbotron jumbotron-fluid">
+			<h1>Bootstrap Jumbotron-fluid of full width screen</h1>
+		</div>
+		
+### Container:
+> Bootstrap 4 also requires a containing element to wrap site contents.
+
+Two Types of Container:
+
+1) Container:It provides a responsive fixed width container
+
+		<div class="container">
+			<h1>Bootstrap container</h1>
+		</div>
+
+2) Container-fluid: It provides a full width container, spanning the entire width of the viewport
+
+		<div class="container">
+			<h1>Bootstrap container fluid</h1>
+		</div>
+
+### Grid Classes:
+
+> Bootstrap's grid system is provides the data into Grid formate and allows up to 12 columns across the page. The grid system is responsive The columns will re-arrange automatically depending on the screen size
+
+Types of Grid:
+
+	.col     : extra small devices - screen width less than 576px
+        .col-sm- : small devices - screen width equal to or greater than 576px
+        .col-md- : medium devices - screen width equal to or greater than 768px
+        .col-lg- : large devices - screen width equal to or greater than 992px
+        .col-xl- : xlarge devices - screen width equal to or greater than 1200px
+
+
+
+
+	
+
