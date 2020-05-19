@@ -28,4 +28,10 @@ Bootstrap is a free front-end framework for faster and easier web development
 	<div class=“container”>…..</div>
 	
 2.Grid System: Grid systems are used for creating page layouts through a series of rows and columns that house your content
-	<div class=‘row’>…..</div>
+
+	<div class=‘row’>
+		<div class='col'>.....</div>
+		<div class='col'>.....</div>
+		<div class='col'>.....</div>
+		
+	</div>
