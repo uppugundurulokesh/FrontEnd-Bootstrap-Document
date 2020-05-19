@@ -57,17 +57,14 @@ Using different prefixes, these classes can be used for both Bootstrap text co
 ***Example***
 
 * Background Color:
+    <h1 style="background-color:DodgerBlue;">Hello World</h1> (or)
+    <h1 style="background-color:rgb(255, 99, 71);">Hello world</h1> (or)	
+    <h1 style="background-color:#ff6347;">Hello world</h1>
 
-	<h1 style="background-color:DodgerBlue;">Hello World</h1> (or)
-	<h1 style="background-color:rgb(255, 99, 71);">...</h1> (or)	
-	<h1 style="background-color:#ff6347;">...</h1>
-	
 * Text Color:
-
-	<h1 style="color:Tomato;">Hello World</h1>
-
+    <h1 style="color:Tomato;">Hello World</h1>
+	
 * Border Color:
-
-	<h1 style="border:2px solid Tomato;">Hello World</h1>
+   <h1 style="border:2px solid Tomato;">Hello World</h1>
 
 
